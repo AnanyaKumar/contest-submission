@@ -1,0 +1,136 @@
+BODY {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10pt;
+  background-color: #FFFFFF;
+  margin 5px 5px;
+  width 40em;
+}
+
+P, TD, TH {
+  font-size: 10pt;
+  font-family: Arial, Helvetica, sans-serif;
+  text-indent: 0px;
+  color: #000000;
+}
+
+table.login {
+  border-width: 2px;
+  border-color: #8EBA8B;
+  border-style: solid;
+  background-color: #E8F8E6;
+}
+
+table.login th.header {
+  color: #2E3C2D;
+  padding: 1ex 3px 3px 1ex;
+}
+
+table.login th.username {
+  color: #2E3C2D;
+  padding: 1ex 3px 3px 1ex;
+}
+
+table.login th.password {
+  color: #2E3C2D;
+  padding: 3px 3px 3px 1ex;
+}
+
+table.login td.username {
+  padding: 1ex 1ex 3px 3px;
+}
+
+table.login td.password {
+  padding: 3px 1ex 3px 3px;
+}
+
+table.login td.button {
+  padding: 3px 1ex 1ex 1ex;
+}
+
+table.list, table.sidelist, table.rank, table.success {
+  border: 0;
+  background-color: #FFFFFF;
+  text-align: center;
+}
+
+table.list td.first b, table.list th, table.sidelist td.first b, table.sidelist th {
+  font-weight: bold;
+  color: #3D3F53;
+}
+
+table.list th, table.rank th {
+  background-color: #E0E2F8;
+  padding: 2px 1ex 2px 1ex;
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 1px;
+  border-color: #B5BCF8;
+  border-style: solid;
+}
+
+table.sidelist th {
+  background-color: #E0E2F8;
+  padding: 2px 1ex 2px 1ex;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #B5BCF8;
+  border-style: solid;
+}
+
+table.list th.first, table.sidelist th.first, table.rank th.first {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #B5BCF8;
+  border-style: solid;
+}
+
+table.list td, table.sidelist td, table.rank td {
+  background-color: #F2F4F8;
+  padding: 2px 2px 2px 2px;
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 1px;
+  border-color: #B5BCF8;
+  border-style: solid
+}
+
+table.list td.first, table.list td.expfirst, table.list td.successfirst, table.list td.warnfirst, table.list td.errfirst, table.rank td.first {
+  border-top: 0px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #B5BCF8;
+  border-style: solid
+}
+
+table.sidelist td.first, table.sidelist td.expfirst, table.sidelist td.successfirst, table.sidelist td.warnfirst, table.sidelist td.errfirst {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 0px;
+  border-right: 1px;
+  border-color: #B5BCF8;
+  border-style: solid
+}
+
+table.list td.exp, table.list td.expfirst, table.sidelist td.exp, table.sidelist td.expfirst {
+  background-color: #E0F8E2;
+}
+
+table.list td.success, table.list td.successfirst, table.sidelist td.success, table.sidelist td.successfirst {
+  background-color: #C1FFB5;
+}
+
+table.list td.warn, table.list td.warnfirst, table.sidelist td.warn, table.sidelist td.warnfirst {
+  background-color: #FCB1FF;
+}
+
+table.list td.err, table.list td.errfirst, table.sidelist td.err, table.sidelist td.errfirst {
+  background-color: #FCB1FF;
+  color: #440000;
+}
